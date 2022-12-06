@@ -6,7 +6,7 @@ RUN rm -rf /var/lib/apt/lists/*
 
 RUN R -e '\
 install.packages( \
-    c("argparse", "readxl", "mlogit", "stargazer")\
+    c("argparse", "readxl", "mlogit", "stargazer", "digest")\
 )'
 
 COPY src/* /app/
