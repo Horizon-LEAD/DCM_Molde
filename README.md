@@ -16,5 +16,5 @@ docker build -t dcm:latest .
 docker run --rm \
     -v $PWD/sample-data:/data \
     dcm:latest \
-    data/inputs/input.xlsx /data/outputs
+    data/input/input.xlsx /data/output
 ```
